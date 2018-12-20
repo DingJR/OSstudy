@@ -1,0 +1,7 @@
+make
+./myprogram 1
+./myprogram 4
+./myprogram 8
+./myprogram 12
+./myprogram 16
+./myprogram 20

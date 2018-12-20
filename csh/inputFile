@@ -1,0 +1,14 @@
+ls > a a
+ls > a a a
+ls -l -a > a &
+ls &
+ps &
+wait    
+ls > a
+ls>b
+notAcommand 
+grep -o "print" mysh.c | wc -l
+grep "write" mysh.c | sort | uniq | wc -l
+pwd
+cd 3rdhomework
+pwd 
