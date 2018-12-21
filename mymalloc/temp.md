@@ -112,6 +112,7 @@ way1:$$|a+b|$$
 way2:$$|a-b|$$
 
 Since both a and b are positive ***way2*** is always a better way. Here's simplified code:
+
     void Direct_Block(datablock* db,int* IdrctBlck, FILE*f, int length,int *wholeNum)
     {
         fseek(f,(IdrctBlck[i] + FSenv.data_offset)*BLOCKSIZE,SEEK_SET);
