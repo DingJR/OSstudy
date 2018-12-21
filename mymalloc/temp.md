@@ -108,8 +108,9 @@ It is used to read blocks from file to the `datablock` structure. The data is al
     
 Magnetic arm movement distance(last time visit place:a, target place:b):
 
-way1: $$|a+b|$$
-way2: $$|a-b|$$
+way1: |a+b|
+
+way2: |a-b|
 
 Since both a and b are positive ***way2*** is always a better way. Here's simplified code:
 
